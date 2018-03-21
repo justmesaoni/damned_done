@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CollegeApp.master.cs" Inherits="CollegeApp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 61px;
+            text-align: center;
+        }
+        .auto-style3 {
+            text-align: left;
+            width: 251px;
+            color: #333300;
+        }
+        .auto-style4 {
+            width: 251px;
+        }
+        .auto-style5 {
+            width: 251px;
+        }
+        .auto-style6 {
+            height: 23px;
+            text-align: center;
+        }
+        .auto-style7 {
+            width: 98px;
+        }
+        .auto-style8 {
+            width: 102px;
+        }
+        .auto-style9 {
+            width: 110px;
+        }
+        .auto-style10 {
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+   
+    <form id="form1" runat="server">
+   
+ <table width="100%" height="50px">
+        <tr>
+             <td valign="top" style="font-size: x-large; background-color: #90D0CF; background-image: url('/images1/12.jpg.jpg'); color: #33CCCC;" class="auto-style10"><em><strong aria-live="polite" style="background-image: url('/images1/12.jpg.jpg'); font-size: xx-large; color: #33CCFF;">&nbsp;College Admission Forum&nbsp;</strong></em></td>
+        </tr>
+    </table>
+    <table width="100%" height="30px">
+        <tr>
+             <td valign="top" class="auto-style7" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton6" runat="server" ForeColor="#333300" PostBackUrl="~/Home.aspx" CausesValidation="False">Home</asp:LinkButton>
+             </td>
+             <td valign="top" class="auto-style8" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton21" runat="server" ForeColor="#333300" PostBackUrl="~/Login.aspx" CausesValidation="False">Login</asp:LinkButton>
+             </td>
+             <td valign="top" class="auto-style9" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton22" runat="server" ForeColor="#333300" PostBackUrl="~/Registration.aspx">Registration</asp:LinkButton>
+             </td>
+             <td valign="top" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="#333300" PostBackUrl="~/college.aspx" CausesValidation="False">Colleges</asp:LinkButton>
+             </td>
+             <td valign="top" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="#333300" PostBackUrl="~/Application Guide.aspx" CausesValidation="False">Application Guide</asp:LinkButton>
+             </td>
+             <td valign="top" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="#333300" CausesValidation="False" PostBackUrl="~/campus.aspx">Campus View</asp:LinkButton>
+             </td>
+             <td valign="top" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="#333300" PostBackUrl="~/Financial_Guide.aspx" CausesValidation="False">Financial Guide</asp:LinkButton>
+             </td>
+             <td valign="top" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="#333300" PostBackUrl="~/Student_help.aspx" CausesValidation="False">Student Help</asp:LinkButton>
+             </td>
+             <td valign="top" style="background-color: #E5E5E5">
+                 <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="#333300" PostBackUrl="~/contact Us.aspx" CausesValidation="False">Contact Us</asp:LinkButton>
+             </td>
+        </tr>
+    </table>
+    <table width="100%" height="50px">
+        <tr>
+             <td valign="top" style="background-image: url(/HPES/images1/nom.jpg)">
+                 <table style="height: 90px; width: 100%;">
+        <tr>
+             <td valign="top" class="auto-style2" style="background-color: #FFFFFF; text-decoration: underline; background-image: url('/images1/12.jpg.jpg'); color: #00FFCC;">Search Your Dream College here:<br />
+                 <br />
+                 &nbsp;
+                 <asp:Button ID="Button1" runat="server" Text="Custom Search" PostBackUrl="https://www.google.co.in/?gfe_rd=cr&amp;ei=O-p3V7DkEbLT8gf3778I&amp;gws_rd=ssl" />
+                 <br />
+             </td>
+        </tr>
+    </table>
+             </td>
+        </tr>
+    </table>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3"><em>Find Your Best Fit By:</em></td>
+                <td rowspan="12" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </p>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4" style="text-align: left">
+                    <asp:LinkButton ID="LinkButton8" runat="server" PostBackUrl="~/location.aspx" ForeColor="#336600">&gt;&gt;Location</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton9" runat="server" PostBackUrl="~/Majors.aspx" ForeColor="#006600">&gt;&gt;Majors</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton10" runat="server" PostBackUrl="~/Scores.aspx" ForeColor="#006600">&gt;&gt;Scores</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton11" runat="server" PostBackUrl="~/Financial_Guide.aspx" ForeColor="#006600">&gt;&gt;Tuition Fee</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton18" runat="server" PostBackUrl="~/Course.aspx" ForeColor="#006600">&gt;&gt;Course</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton16" runat="server" PostBackUrl="~/Placement.aspx" ForeColor="#006600">&gt;&gt;Placement</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton14" runat="server" PostBackUrl="~/Program_offered.aspx" ForeColor="#006600">&gt;&gt;Programme Offered</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton15" runat="server" PostBackUrl="~/Public_Private.aspx" ForeColor="#006600">&gt;&gt;Public/Private Colleges</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton17" runat="server" PostBackUrl="~/Ethnicity.aspx" ForeColor="#006600">&gt;&gt;Ethnicity Quota</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:LinkButton ID="LinkButton12" runat="server" PostBackUrl="~/Sports.aspx" ForeColor="#006600">&gt;&gt;Sports Quota</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:LinkButton ID="LinkButton20" runat="server" PostBackUrl="~/Disability.aspx" ForeColor="#006600">&gt;&gt;Special Colleges (Disability Services)</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6" colspan="2" style="background-color: #90D0CF; background-image: url('/images1/12.jpg.jpg'); color: #00CCFF;">copyright by@CAS</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images1/Amity.jpg</ImageUrl>
+  <AlternateText>Invalid image</AlternateText>
+    <Impression>800</Impression>
+  <NavigateUrl></NavigateUrl>
+  </Ad>
+<Ad>
+    <ImageUrl>images1/SMIT_logo_large.png</ImageUrl>
+  <AlternateText>Invalid image</AlternateText>
+    <Impression>850</Impression>
+  <NavigateUrl></NavigateUrl>
+  </Ad>
+<Ad>
+    <ImageUrl>images1/Lovely.jpg</ImageUrl>
+  <AlternateText>Invalid image</AlternateText>
+    <Impression>870</Impression>
+  <NavigateUrl></NavigateUrl>
+  </Ad>
+<Ad>
+    <ImageUrl>images1/srm.jpg</ImageUrl>
+  <AlternateText>Invalid image</AlternateText>
+    <Impression>890</Impression>
+  <NavigateUrl></NavigateUrl>
+  </Ad>
+<Ad>
+    <ImageUrl>images1/vit.png</ImageUrl>
+  <AlternateText>Invalid image</AlternateText>
+    <Impression>900</Impression>
+  <NavigateUrl></NavigateUrl>
+  </Ad>
+</Advertisements>
